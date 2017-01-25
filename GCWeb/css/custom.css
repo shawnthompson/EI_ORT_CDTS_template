@@ -15,4 +15,6 @@
     border-bottom: solid #335075 5px
 }
 
-/* #335075 */
+.gc-app object {
+    width: 50%;
+}
