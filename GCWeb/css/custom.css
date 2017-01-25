@@ -1,20 +1,40 @@
-#wb-bnr p.h1 {
-    color: #335075;
+
+/* FIP image */
+.gc-app object {
+    width: 50%;
 }
 
-#wb-bnr p.h1 i.glyphicon {
+.gc-app #wb-srch, .srchbox {
+    padding-top: 0;
+}
+
+/* Application name */
+.gc-app #wb-bnr p.h1 {
+    color: #335075;
+    margin: 0;
+}
+
+/* Lock icon */
+.gc-app #wb-bnr p.h1 i.glyphicon {
     font-size: 80%;
 }
 
-#wb-sm .btn {
+/* Button in menu */
+.gc-app #wb-sm .btn {
     padding: 0.8em;
     margin: 3px;
 }
 
-.gc-app-br {
-    border-bottom: solid #335075 5px
+/* Application banner */
+.gc-app .gc-app-br {
+    padding-bottom: 10px;
+    margin-top: 5px;
 }
 
-.gc-app object {
-    width: 50%;
+.gc-app .gc-app-br .btn .glyphicon {
+    margin-right: 10px;
+}
+
+.gc-app .hr {
+    border-bottom: solid #335075 5px;
 }
