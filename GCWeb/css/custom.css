@@ -1,3 +1,13 @@
-#wb-bnr h2.h1 {
-    color: #243850;
+#wb-bnr p.h1 {
+    color: #335075;
+}
+
+#wb-bnr p.h1 i.glyphicon {
+    font-size: 80%;
+    top: 5px;
+}
+
+#wb-sm .btn {
+    padding: 0.8em;
+    margin: 3px;
 }
