@@ -12,25 +12,14 @@
     }
 }
 
-/* Application name */
-.gc-app #wb-bnr p.h1 {
+/* Application banner */
+
+.gc-app .gc-app-br p.h1 {
     color: #335075;
 }
 
-/* Lock icon */
-.gc-app #wb-bnr p.h1 i.glyphicon {
+.gc-app .gc-app-br p.h1 i.glyphicon {
     font-size: 80%;
-}
-
-/* Button in menu */
-.gc-app #wb-sm .btn {
-    padding: 0.8em;
-    margin: 3px;
-}
-
-/* Application banner */
-.gc-app .gc-app-br {
-    padding-bottom: 10px;
 }
 
 .gc-app .gc-app-br .h1, .gc-app .gc-app-br #wb-srch {
@@ -41,10 +30,17 @@
     padding-top: 0;
 }
 
-.gc-app .gc-app-br .btn .glyphicon {
-    margin-right: 10px;
-}
-
 .gc-app .hr {
     border-bottom: solid #335075 5px;
+}
+
+/* Button in menu */
+.gc-app #wb-sm .btn {
+    padding: 0.8em;
+    margin: 3px;
+}
+
+/* Log in / out icon */
+.gc-app .btn .glyphicon-off {
+    margin-right: 10px;
 }
