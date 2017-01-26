@@ -1,17 +1,20 @@
 
 /* FIP image */
-.gc-app object {
-    width: 50%;
+@media only screen and (min-width : 480px) {
+    .gc-app object {
+        width: 65%;
+    }
 }
 
-.gc-app #wb-srch, .srchbox {
-    padding-top: 0;
+@media only screen and (min-width : 768px) {
+    .gc-app object {
+        width: 50%;
+    }
 }
 
 /* Application name */
 .gc-app #wb-bnr p.h1 {
     color: #335075;
-    margin: 0;
 }
 
 /* Lock icon */
@@ -28,7 +31,14 @@
 /* Application banner */
 .gc-app .gc-app-br {
     padding-bottom: 10px;
-    margin-top: 5px;
+}
+
+.gc-app .gc-app-br .h1, .gc-app .gc-app-br #wb-srch {
+    margin-top: 10px;
+}
+
+.gc-app .gc-app-br #wb-srch {
+    padding-top: 0;
 }
 
 .gc-app .gc-app-br .btn .glyphicon {
