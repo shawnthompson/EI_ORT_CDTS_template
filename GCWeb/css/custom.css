@@ -25,6 +25,14 @@
     margin-top: 10px;
 }
 
+.gc-app-br .btn-primary {
+    background-color: #335075;
+}
+
+.gc-app-br .btn-primary:hover {
+    background-color: #243850;
+}
+
 .gc-app .gc-app-br #wb-srch {
     padding-top: 0;
     margin-bottom: 10px;
