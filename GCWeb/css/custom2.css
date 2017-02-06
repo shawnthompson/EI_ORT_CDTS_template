@@ -38,9 +38,14 @@
 .gc-app #wb-sm .btn-signoff {
     top: 4.5px;
     position: relative;
+    background-color: #fff;
+}
+
+.gc-app #wb-sm a.btn-signoff:hover {
+    background-color: #ccc;
 }
 
 /* Log in / out icon */
-.gc-app .btn-signoff {
+.gc-app .glyphicon-off {
     margin-right: 10px;
 }
