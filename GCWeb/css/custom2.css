@@ -1,0 +1,46 @@
+/* FIP image */
+@media only screen and (min-width : 480px) {
+    .gc-app object {
+        width: 65%;
+    }
+}
+
+@media only screen and (min-width : 768px) {
+    .gc-app object {
+        width: 50%;
+    }
+}
+
+/* Application banner */
+
+.gc-app .gc-app-br p.h1 {
+    color: #335075;
+}
+
+.gc-app .gc-app-br p.h1 i.glyphicon {
+    font-size: 80%;
+}
+
+.gc-app .gc-app-br .h1, .gc-app .gc-app-br #wb-srch {
+    margin-top: 10px;
+}
+
+.gc-app .gc-app-br #wb-srch {
+    padding-top: 0;
+    margin-bottom: 10px;
+}
+
+.gc-app  #wb-sm {
+    min-height: 55px;
+}
+
+/* Button in menu */
+.gc-app #wb-sm .btn-signoff {
+    top: 4.5px;
+    position: relative;
+}
+
+/* Log in / out icon */
+.gc-app .btn-signoff {
+    margin-right: 10px;
+}
