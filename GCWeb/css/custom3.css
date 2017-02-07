@@ -1,10 +1,10 @@
 /* Application banner */
-.gc-app .gc-app-br p.h1 {
+.gc-app p.h1 {
     color: #335075;
     font-size: 20px;
 }
 
-.gc-app .gc-app-br p.h1 i.glyphicon {
+.gc-app p.h1 i.glyphicon {
     font-size: 80%;
 }
 
@@ -49,8 +49,21 @@
     .gc-app .gc-app-br p.h1 {
         font-size: 28px;
     }
+
+    .gc-app-name {
+        display: none;
+    }
 }
 
+@media only screen and (max-width : 480px) {
+    .gc-app .gc-app-br p.h1 {
+        display: none;
+    }
+
+    .gc-app-name p.h1 {
+        margin-top: 10px;
+    }
+}
 @media only screen and (min-width : 768px) {
     .gc-app object {
         width: 50%;
