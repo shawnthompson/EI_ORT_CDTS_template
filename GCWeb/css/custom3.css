@@ -8,7 +8,10 @@
     font-size: 80%;
 }
 
-.gc-app .gc-app-br .h1, .gc-app .gc-app-br #wb-srch {
+.gc-app .gc-app-br .btn-signoff {
+    margin-bottom: 10px;
+}
+.gc-app .gc-app-br .h1, .gc-app .gc-app-br #wb-srch, .gc-app .gc-app-br .btn-signoff {
     margin-top: 10px;
 }
 
