@@ -1,0 +1,59 @@
+/* Application banner */
+.gc-app .gc-app-br p.h1 {
+    color: #335075;
+    font-size: 20px;
+}
+
+.gc-app .gc-app-br p.h1 i.glyphicon {
+    font-size: 80%;
+}
+
+.gc-app .gc-app-br .h1, .gc-app .gc-app-br #wb-srch {
+    margin-top: 10px;
+}
+
+.gc-app .gc-app-br #wb-srch {
+    padding-top: 0;
+    margin-bottom: 10px;
+}
+
+.gc-app  #wb-sm {
+    min-height: 55px;
+}
+
+/* Button in menu */
+.gc-app #wb-sm .btn-signoff {
+    top: 4.5px;
+    position: relative;
+    background-color: #fff;
+}
+
+.gc-app #wb-sm a.btn-signoff:hover {
+    background-color: #ccc;
+}
+
+/* Log in / out icon */
+.gc-app .glyphicon-off {
+    margin-right: 10px;
+}
+
+/* FIP image */
+@media only screen and (min-width : 480px) {
+    .gc-app object {
+        width: 65%;
+    }
+
+    .gc-app .gc-app-br p.h1 {
+        font-size: 28px;
+    }
+}
+
+@media only screen and (min-width : 768px) {
+    .gc-app object {
+        width: 50%;
+    }
+
+    .gc-app .gc-app-br p.h1 {
+        font-size: 34px;
+    }
+}
