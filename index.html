@@ -119,23 +119,29 @@
 
     </div>
 
-    <nav role="navigation" id="wb-sm" data-ajax-replace="./ajax/menu.html" data-trgt="mb-pnl" class="wb-menu visible-md visible-lg" typeof="SiteNavigationElement">
-    <div class="container nvbar">
-    <h2>Topics menu</h2>
-    <div class="row">
-        <div class="col-md-10">
-            <ul class="list-inline menu">
-            <li><a href="http://www.esdc.gc.ca/en/jobs/index.page">Jobs</a></li>
-            <li><a href="http://www.cic.gc.ca/english/index.asp">Immigration</a></li>
-            </ul>
-        </div>
-        <div class="col-md-2 text-right">
-            <a href="#" class="btn btn-default"><i class="glyphicon glyphicon-off"></i>Sign out</a>
-        </div>
-    </div>
-    </div>
-    </nav>
+ <div id="wb-sm" class="visible-md visible-lg">
+     <div class="container">
 
+        <nav role="navigation" data-trgt="mb-pnl" data-ajax-replace="./ajax/menu.html" class="wb-menu col-md-10" typeof="SiteNavigationElement">
+            <div class="pnl-strt nvbar">
+                <h2>Topics menu</h2>
+                <div class="row">
+                    <ul class="list-inline menu">
+                        <li><a href="http://www.esdc.gc.ca/en/jobs/index.page">Jobs</a></li>
+                        <li><a href="http://www.cic.gc.ca/english/index.asp">Immigration</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <nav role="navigation" id="wb-smlog" class="text-right col-md-2 visible-md visible-lg">
+            <div class="row">
+                <h2 class="wb-inv">Sign In / Out</h2>
+                <div><a href="#" class="btn btn-default"><i class="glyphicon glyphicon-off"></i>Sign out</a></div>
+            </div>
+        </nav>
+    </div>
+</div>
 
     <nav role="navigation" id="wb-bc" property="breadcrumb">
         <h2>You are here:</h2>

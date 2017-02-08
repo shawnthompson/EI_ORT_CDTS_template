@@ -130,7 +130,7 @@
 
     </div>
 
-    <nav role="navigation" id="wb-sm" data-trgt="mb-pnl" class="wb-menu visible-md visible-lg" typeof="SiteNavigationElement">
+    <!-- <nav role="navigation" id="wb-sm" data-trgt="mb-pnl" class="wb-menu visible-md visible-lg" typeof="SiteNavigationElement">
         <div class="container nvbar">
             <h2>Application menu</h2>
             <div class="row">
@@ -147,9 +147,33 @@
                 </div>
             </div>
         </div>
-    </nav>
+    </nav> -->
 
+    <div id="wb-sm" class="visible-md visible-lg">
+        <div class="container">
 
+           <nav role="navigation" data-trgt="mb-pnl" data-ajax-replace="../ajax/menu3.html" class="wb-menu col-md-10" typeof="SiteNavigationElement">
+               <div class="pnl-strt nvbar">
+                   <h2>Topics menu</h2>
+                   <div class="row">
+                       <ul class="list-inline menu">
+                           <li><a href="#">Overview</a></li>
+                           <li><a href="#">Section 1</a></li>
+                           <li><a href="#">Section 2</a></li>
+                           <li><a href="#">Section 3</a></li>
+                       </ul>
+                   </div>
+               </div>
+           </nav>
+
+           <nav role="navigation" id="wb-smlog" class="text-right col-md-2 visible-md visible-lg">
+               <div class="row">
+                   <h2 class="wb-inv">Sign In / Out</h2>
+                   <div><a href="#" class="btn btn-default btn-lg btn-signoff"><i class="glyphicon glyphicon-off"></i>Sign out</a></div>
+               </div>
+           </nav>
+       </div>
+   </div>
 
     <nav role="navigation" id="wb-bc" property="breadcrumb">
         <h2>You are here:</h2>
