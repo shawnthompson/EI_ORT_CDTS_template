@@ -1,82 +1,86 @@
 /* Application banner */
 .gc-app p.h1 {
-    color: #335075;
-    font-size: 20px;
+	color: #335075;
+	font-size: 20px;
 }
 
 .gc-app p.h1 i.glyphicon {
-    font-size: 80%;
+	font-size: 80%;
 }
 
 .gc-app .h1, .gc-app #wb-srch, .gc-app .gc-app-br .btn-signoff {
-    margin-top: 10px;
+	margin-top: 10px;
 }
 
 .gc-app .btn-signoff.btn-primary {
-    background-color: #335075;
+	background-color: #335075;
 }
 
 .gc-app .btn-signoff.btn-primary:hover {
-    background-color: #243850;
+	background-color: #243850;
 }
 
 .gc-app #wb-srch {
-    padding-top: 0;
-    margin-bottom: 10px;
+	padding-top: 0;
+	margin-bottom: 10px;
 }
 
 
 /* Button in menu */
 .gc-app #wb-sm .btn-signoff {
-    top: 5px;
-    position: relative;
-    background-color: #fff;
+	top: 5px;
+	position: relative;
+	background-color: #fff;
 }
 
 .gc-app #wb-sm a.btn-signoff:hover {
-    background-color: #ccc;
+	background-color: #ccc;
 }
 
 /* Log in / out icon */
 .gc-app .glyphicon-off {
-    margin-right: 10px;
+	margin-right: 10px;
 }
 
 /* FIP image */
 @media only screen and (min-width : 480px) {
-    .gc-app object {
-        width: 65%;
-    }
+	.gc-app object {
+		width: 65%;
+	}
 
-    .gc-app .gc-app-br p.h1 {
-        font-size: 28px;
-    }
+	.gc-app .gc-app-br p.h1 {
+		font-size: 28px;
+	}
 
-    .visible-xxs {
-        display: none;!important
-    }
+	.visible-xxs {
+		display: none;!important
+	}
 }
 
 @media only screen and (max-width : 479px) {
-    .hidden-xxs {
-        display: none;!important
-    }
+	.hidden-xxs {
+		display: none;!important
+	}
 
-    .gc-app .btn-signoff {
-        font-size: 12px;
-        min-height: 20px;
-    }
+	.gc-app .btn-signoff {
+		font-size: 12px;
+		min-height: 20px;
+	}
 
-    .gc-app-name p.h1 {
-        margin-top: 5px;
-    }
+	.gc-app-name p.h1 {
+		margin-top: 5px;
+	}
 }
 @media only screen and (min-width : 768px) {
-    .gc-app object {
-        width: 50%;
-    }
+	.gc-app object {
+		width: 50%;
+	}
 
-    .gc-app .gc-app-br p.h1 {
-        font-size: 34px;
-    }
+	.gc-app #wb-sm {
+		min-height: 55px;
+	}
+
+	.gc-app .gc-app-br p.h1 {
+		font-size: 34px;
+	}
 }
